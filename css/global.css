@@ -31,23 +31,16 @@ body > header {
 }
 
 header .logo-search form  {
-    width: 50%;
 }
 
 .logo-search{
-    padding-left: 10%;
-    display:inline-block;
 }
 
 #barre-recherche{
-    width: 30%;
-    padding-left: 5%;
     display:inline-block;
 }
 
 header .user {
-    float: right;
-    margin-left: 30%
 }
 
 header .user a {
@@ -113,6 +106,10 @@ h1 {
     margin-left: 12px;
 }
 
+.name{
+    padding-left: 20px;
+}
+
 
 .stats-links {
     color: #4b5c66;
@@ -135,6 +132,8 @@ h1 {
     font-weight: normal;
     color: #4b5c66;
 }
+
+
 
 h2 {
     font-size: 20px;
@@ -231,5 +230,31 @@ nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; 
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
 
+
+@media (max-width: 576px) {
+.social{
+    display: none;
+}   
+}
+
+
+
+@media screen and (min-width: 1001px) {
+  div.mooove {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  div.mooove {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.mooove {
+    font-size: 20px;
+  }
+}
 
 
